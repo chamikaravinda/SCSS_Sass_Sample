@@ -1,0 +1,12 @@
+@import './variables';
+@import './header';
+
+.contact {
+    @include flexCenter(row,rgb(130, 189, 36));
+    button {
+        background:$primaryBtn;
+        &:hover{
+            background:rgb(16, 131, 167);
+        }
+    }
+}
